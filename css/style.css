@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  .container-header{
+    width: 100%;
+    background: #629c8b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    color: #000;
+  }
+  
+  .logo{
+    padding-left: 10px;
+  }
+  
+  .slogan{
+    padding: 5px;
+    
+  }
+  
+  .pesquisa input{
+    border-radius: 10px;
+  }
+  
+  .login input{
+    border-radius: 10px;
+  }
+  
+  .login a{
+    padding: 25px;
+  }
+  
+  .acction button{
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  
+  nav {
+    background: #D7EBC8;
+  }
+  
+  body{
+    background: #000;
+    color: #fff;
+  }
+  
+  section{
+    margin: 30px 0;
+  }
+  
+  .pag-canecas{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  
+  .titulo-principal{
+  align-self: center;
+  }
+  
+  .card-p {
+    padding-left: 150px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .linha{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .linha-final{
+    width: 90%;
+    border: 2px solid #629c8b;
+    align-self: center;
+  }
+  
+  .pgto{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .pagt{
+    padding-left: 95px;
+    padding-top: 4px;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .pagt h4 {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .compra-segura h4{
+    padding-right: 95px;
+    padding-top: 4px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .rodape{
+    background: #629C8B;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .rodape-centralizado{
+    align-self: center;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .rodape-centralizado p{
+    padding-left: 60px;
+  }
+  
+  .rodape-centralizado h4{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .product-selected{
+    width: 60%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+  }
+  
+  .product{
+    font-size: 1rem;
+    color: #000000;
+  }
+  
+  .container-principal{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 5px;    
+  }
+
+  .container-preco{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5px;    
+  }
+
+  .product-tittle{
+    margin-left: 90px;
+    color: #fff;
+  }
+
+  .produto {
+    background-color: #fff;
+    width: 700px;
+    color: #000;
+    padding-left: 15px;
+ }
+
+ .preco{
+   padding-left: 20px;
+   width: 500px;
+   height: 500px;
+   padding-right: 90px;
+   background-color: #fff;
+   color: #000;
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .preco p{
+   font-size: 24px;
+   text-align: center;
+ }
+
+ .estoque{ 
+   text-align: start;
+   font-weight: bold;
+   text-decoration: underline;
+   color: #307E3D;
+ }
+
+ .adc-carrinho{
+   font-size: 18px;
+   font-weight: bold;
+   background-color: #76EFD9;
+   text-align: start;
+   width: 150px;
+ }
+
+
+ /* Seção de cadastro */
+
+.container-cadastro{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 80px;
+}
+
+.container-cadastre{
+  width: 600px;
+  background-color: #000;
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.container-formulario {
+  padding-left: 20px;
+  background-color: #D7EBC8;
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 90px;
+  width: 500px;
+}
+
+.container-formulario input{
+  width: 450px;
+}
+
+
+  
+  
+  

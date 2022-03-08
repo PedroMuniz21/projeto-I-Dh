@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Open+Sans:wght@700 & display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/carrinho.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body >
+    <header>
+         </div>
+        
+    </header>
+
+
+</body>
+
+
+  <main>
+      <div>
+          <p class="produto1">Produto 1</p> 
+          <p class="preco1">R$3.600,00</p>
+          <p class="produto2">Produto 2</p>
+          <p class="preco2">R$200,00</p>
+          <p class="produto3">Produto 3</p>
+          <p class="preco3">R$105,00</p>
+          <p class="npedido">NÂº do pedido: 0111111</p>
+          <p class="valor">Valor:</p>
+          <p class="soma">R$3.940,00</p>
+          <p class="atentese">Atente-se ao pagamento</p>
+
+          <p>
+            <label class="lCep" for="cep">Calcular Cep:</label>
+            <input class="cep" type="email" id="cep" name="cep" placeholder="Digite o CEP" required>
+          </p>
+
+          <p>
+            <label class="formaDePagamento" for="formaDePagamento">Selecione a forma de pagamento</label>
+            <select class="formaDePagamento1" for="pagamento" id="formaDePagamento">
+                <option selected disabled>Selecione</option>
+                <option value="Credito">Credito</option>
+                <option value="Pix">Pix</option>
+                <option value="Boleto">Boleto</option>
+            </select>
+          </p>
+          <p>
+            <button class="comprar" type="comprar">Comprar</button>
+          </p>
+      </div>
+  </main>
+</html>

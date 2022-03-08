@@ -1,0 +1,260 @@
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .header, .footer{
+            position:absolute;
+        }
+
+        .cabeca{  
+            background-color:#629C8B;
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 225px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .opcoes{
+            background-color: #629C8B;
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+
+        .inicio{
+            background-color: #D7EBC8;
+        }
+
+        .canecas{
+            background-color: #D7EBC8;
+        }
+
+        .vestuario{
+            background-color: #D7EBC8;
+        }
+
+        .games{
+            background-color: #D7EBC8;
+        }
+
+        .carrinho{
+            background-color: #D7EBC8;
+        }
+
+        .primeiroQuadrado {
+            background-color:#000000;
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .formaPagamento{
+            color: #F06D6D;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 33px;
+        }
+
+        .cartao {
+            color: #F8F8F8;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 13px;
+            line-height: 18px;
+        }
+
+        .compraSegura {
+            color: #fd6464;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 33px;
+        }
+
+        .quadrado {
+            background-color:#629C8B;
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content:center;
+        }
+
+        .letras{
+            font-family: 'Open Sans', sans-serif;
+            width: 209px;
+            height: 33px;
+        }
+
+        .pesquisa{
+            background-color:#629C8B;
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 225px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .hPesquisa{
+            display: flex;
+            color: #FFFFFF;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 13px;
+            line-height: 18px;
+        }
+
+        .produto1, .preco1{
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 20px;
+            align-items: center;
+            align-self: center;
+            background-color: #fff;
+        }
+
+        .produto2, .preco2{
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 20px;
+            align-items: center;
+            align-self: center;
+            background-color: #fff;
+        }
+
+        .produto3, .preco3{
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 20px;
+            align-items: center;
+            align-self: center;
+            background-color: #fff;
+        }
+        
+        .produto1{
+            position: relative;
+            left: 250px;
+        }
+
+        .preco1{
+            position: relative;
+            left: 900px;
+            bottom: 17px;
+        }
+
+        .produto2{
+            position: relative;
+            left: 250px;
+        }
+
+        .preco2{
+            position: relative;
+            left: 900px;
+            bottom: 17px;
+        }
+
+        .produto3{
+            position: relative;
+            left: 250px;
+        }
+
+        .preco3{
+            position: relative;
+            left: 900px;
+            bottom: 15px;
+        }
+
+        .npedido, .valor, .soma, .atentese{
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 20px;
+            background-color: #fff;
+    
+        }
+
+        .npedido{
+            position: relative;
+            left: 150px;
+        }
+
+        .valor{
+            position: relative;
+            left: 450px;
+            bottom: 17px;
+        }
+
+        .soma{
+            position: relative;
+            left: 650px;
+            bottom: 34px;
+        }
+
+        .atentese{
+            position: relative;
+            left: 850px;
+            bottom: 51px;
+        }
+
+        .cep, .formaDePagamento, .atente-se1, .lCep{
+            width: auto;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 20px;
+            background-color: #fff;
+        }
+
+        .lCep{
+            position: relative;
+            left: 270px;
+        }
+
+        .cep{
+            position: relative;
+            left: 250px;
+        }
+
+        .formaDePagamento{
+            position: relative;
+            left: 800px;
+            bottom: 35px;
+        }
+
+        .formaDePagamento1{
+            position: relative;
+            left: 800px;
+            bottom: 36px;
+        }
+
+        .comprar{
+            position: relative;
+            left: 680px;
+           
+        }
